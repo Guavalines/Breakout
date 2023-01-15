@@ -8,6 +8,7 @@ const boardHeight = 300
 let timerId
 let xDirection = -2
 let yDirection = 2
+let score = 0 //let score start at zero
 
 const userStart = [230, 10]
 let currentPosition = userStart
@@ -125,6 +126,8 @@ function checkForCollisions() {
           allBlocks[i].classList.remove('block') //removes block visually from the screen
           blocks.splice(i, 1) //removes block from the array of blocks
           changeDirection()
+          score++
+          scoreDisplay.innerHTML = score
       }
   }
 
