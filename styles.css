@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
-  color:greenyellow;
-  font-size: 80px;;
+  color: greenyellow;
+  font-size: 80px;
 }
 
 body {
@@ -9,19 +9,18 @@ body {
 }
 
 .container {
-  margin: auto;
-  width: 50%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
 }
 
 .grid {
-  position: absolute;
+  position: relative;
   width: 560px;
   height: 300px;
   border: solid black 1px;
-  margin-top: 55px;
-  background-color:greenyellow;
-  margin-left: 175px;
+  background-color: greenyellow;
 }
 
 .block {
@@ -47,6 +46,10 @@ body {
 }
 
 #score {
-  color:greenyellow;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: greenyellow;
   font-size: 35px;
 }
