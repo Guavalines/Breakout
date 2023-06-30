@@ -1,4 +1,4 @@
-# [Breakout](https://guavalines.github.io/Breakout/) ☜ play here
+# [🧱 Breakout](https://guavalines.github.io/Breakout/) ☜ play here
 
 # Description
 
